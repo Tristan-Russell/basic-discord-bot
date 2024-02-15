@@ -73,7 +73,7 @@ async def avatar_command(interaction, user: discord.User = None):
     guild=discord.Object(id=GUILD_ID)
 )
 async def help_command(interaction):
-    message = "Available Commands:\n/hi - Say hello\n/ping - Check bot's latency\n/userinfo - Get user information\n/stream - Announce stream\n/schedule - Display stream schedule\n/social - Get social media links"
+    message = "Available Commands:\n/hi - Say hello\n/ping - Check bot's latency\n/userinfo - Get user information\n"
     await interaction.response.send_message(message)
 
 #Event Hooks
